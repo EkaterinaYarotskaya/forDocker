@@ -2,7 +2,7 @@ name: Master
 on:
   push:
     branches:
-      - WrapInDocker
+      - master
   schedule:
     - cron: '10 12 * * *'
 jobs:
